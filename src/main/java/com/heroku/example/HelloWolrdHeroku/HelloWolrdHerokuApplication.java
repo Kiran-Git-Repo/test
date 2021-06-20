@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
+@CrossOrigin(origins="*")
 public class HelloWolrdHerokuApplication {
 	
 	@GetMapping("/")
